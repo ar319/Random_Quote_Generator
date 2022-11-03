@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Serif Pro", sans-serif;
+  letter-spacing: 1.25px;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url("https://picsum.photos/1920/1080");
+  background-position: bottom;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.button {
+  display: block;
+  width: inherit;
+  margin: 20px auto;
+  margin-bottom: 0;
+  cursor: pointer;
+  border: 2px solid #2e2e2e;
+  border-radius: 10px;
+  padding: 6px 8px;
+  color: #2e2e2e;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  font-size: 25px;
+}
+
+.button:hover {
+  background-image: linear-gradient(135deg, #d9dbdd 0%, #a9b4c5 100%);
+}
+
+.button:focus {
+  outline: none;
+}
+
+.text {
+  padding-top: 15rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 40px;
+  font-weight: 600;
+  font-style: italic;
+  color: #fafafa;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.author {
+  font-size: 30px;
+  font-weight: 500;
+  color: #fafafa;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=index.css.map */
